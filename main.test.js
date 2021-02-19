@@ -3,8 +3,36 @@
 Your code goes below.
 
 */
+let x = 3;
+let y = 10;
+let z = 5;
+let name = "Steven";
+let greeting = "HEY";
 
+function multiply(num) {
+  x = x * num;
+  return x;
+}
 
+function modYBy(num1) {
+  y = y % num1;
+  return y;
+}
+
+function opposite(num2) {
+  z = num2 * -1;
+  return z;
+}
+
+function makeFullName(str) {
+  name = name + " " + str;
+  return name;
+}
+
+function yellAt(str) {
+  greeting = greeting + "," + " " + str + "!";
+  return greeting;
+}
 
 
 
